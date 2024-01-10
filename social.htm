@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{box-sizing: border-box;}
+
+.social{
+    padding: 10px 20px;/*調整內容位置*/
+    background-color: lightgrey;
+}
+.social h3 {
+    margin: 8px 10px;/*調整標題位置*/
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    }
+.social-icons a {
+    width: 66px; height: 66px;/*小圖示寬高*/
+    text-indent: -999px;/*隱藏內容文字*/
+    overflow: hidden;/*隱藏內容文字*/
+    background-position: center;/*讓背景圖置中*/
+    background-repeat: no-repeat;/*讓背景圖不要重複*/
+}
+/*各別設定背景圖*/
+a.instagram {background-image: url(desktop1/IG-removebg-preview\ 2.png)}
+a.facebook {background-image: url(desktop1/image\ 11.png);}
+a.youtube {background-image: url(desktop1/image\ 12.png);}
+
+</style>
+</head>
+<body>
+<div class="social">
+    <h3>Social Media</h3>
+    <div class="social-icons">
+        <a class="instagram" title="Visit Our instagram" href="#">IG</a>
+        <a class="facebook" title="Visit Our facebook" href="#">FB</a>
+        <a class="youtube" title="Visit Our YouTube Channel" href="#">YT</a>
+    </div>
+</div>
+</body>
+</html>

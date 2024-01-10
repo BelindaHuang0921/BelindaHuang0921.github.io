@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&family=Inria+Sans:ital,wght@1,300&display=swap');
+* {box-sizing: border-box;
+margin: 0 auto;}
+html {scroll-behavior: smooth;}
+            
+body{font-family: 'Inknut Antiqua', sans-serif; }
+
+div.wrap{
+        width: 1280px;
+}
+h1{ font-size: 40px;}
+header {
+        padding: 0px 30px;
+        background-color: #C69797;
+        display: flex;
+        align-items: center;/*上下居中*/
+        position: sticky;
+        top: 0px;
+        background-image: url(desktop1/logo.png);
+        background-repeat: no-repeat;
+        background-position: 25px 10px;
+    }
+
+
+
+header a {
+        color: #ffffff;
+        display: block;
+        text-decoration: none;}        
+    
+header h1 {
+            margin-right: auto;/*讓 menu 到右邊去*/
+    }
+    
+ul.menu {
+                display: flex; 
+                list-style: none;
+                margin: 0;
+                gap: 50px;
+                color: aliceblue;
+                background-color:#C69797 ;
+                height: 120px;
+                margin: 0;/*清除 ul 額外空間*/
+                padding: 0;/*清除 ul 額外空間*/
+                font-size: 30px;
+                align-items: center;
+                }
+
+ul.menu a {/*超連結的正常狀態*/
+        padding: 10px 20px;
+                    }
+
+
+section.card{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+}                
+ 
+
+
+ul.menu a:hover{
+        color: gold;
+        border-radius: 20px;    }
+
+section {
+        margin-bottom: 30px;   }
+    
+
+h2{text-align: center;
+font-size: 40px;  }
+
+
+div.Cappuccino .image
+{background-image: url(desktop2/Cappuccino.webp);}
+div.Maple .image
+{background-image: url(desktop1/Maple\ Pecan\ Euphoria.jpg);}
+div.The .image
+{background-image: url(desktop1/The\ Red\ Eye.jpg);}
+div.Espresso .image
+{background-image: url(desktop2/Espresso.jpg);}
+div.Himalayan .image
+{background-image: url(desktop1/Himalayan\ Sunrise\ Blend.png);}
+div.Mocha .image
+{background-image: url(desktop2/Mocha\ Coffee.jpg);}
+div.Chocolate .image
+{background-image: url(desktop2/Chocolate\ Cake.jpg);}
+div.Blueberry .image
+{background-image: url(desktop2/Blueberry\ Muffins.jpg);}
+div.Lemon .image
+{background-image: url(desktop2/Lemon\ Cheese\ Cake.jpg);}
+div.Macaroon .image
+{background-image: url(desktop2/Macaroon.webp);}
+div.Tiramisu .image
+{background-image: url(desktop2/Tiramisu.png);}
+div.Pudding .image
+{background-image: url(desktop2/Pudding.jpg);}
+
+.card{
+        width: 280px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+div.image{    
+        width:100%;
+        height:200px;
+        background-size: cover;
+        border-radius: 20px;}
+
+div.intro{
+        color: rgb(0, 0, 0);
+        font-size: 19px;
+        text-align: center;}
+
+button{ background-color: #BFADAD;
+        border-radius: 20px;
+        width: 199px;
+        font-size: 20px;
+        position:relative;
+        top:200px;
+        flex-wrap:wrap;
+}
+
+              
+
+section.desserts_card {
+        display: flex;
+}
+
+section h1{
+        text-align: center;
+}
+
+       
+
+
+footer.below{
+        background-color:#C69797 ;
+        height: 165px;
+        width: 100%;
+        background-image: url(desktop1/logo.png);
+        background-repeat: no-repeat;
+        background-position: 10px 30px;
+        line-height:30px ;
+        display: flex;
+        padding: 15px 180px;
+        gap:20px;
+        color:#ffffff;
+        font-family:'Inria Sans';
+}
+
+h3 {
+        font-size: 25px;
+        }
+
+p{
+        font-size: 20px;}
+        
+
+div.social_icons{
+        display: flex;
+        padding: 10px 20px;
+        margin-top: 10px;
+        
+}
+
+footer.below p{
+        margin-top: 10px;
+        width: 243px;
+}
+
+.social_icons a {
+        display:block;
+        width: 80px;
+        height: 90px;
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        margin: 0px;
+        float:left;
+
+        }
+
+.social_icons a[href="#instagram"] {
+        background-image: url(desktop1/IG-removebg-preview\ 2.png); 
+    }
+    
+.social_icons a[href="#facebook"] {
+        background-image: url(desktop1/image\ 12.png);
+    }
+    
+.social_icons a[href="#youtube"] {
+        background-image: url(desktop1/image\ 11.png);
+    }
